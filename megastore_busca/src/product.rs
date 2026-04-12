@@ -1,6 +1,6 @@
 use std::hash::{Hash, Hasher};
 
-/// Representa um produto do catálogo.
+// Representa um produto do catálogo.
 #[derive(Debug, Clone, PartialEq)]
 pub struct Product {
     pub id: u64,
